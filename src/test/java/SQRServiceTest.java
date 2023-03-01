@@ -17,7 +17,7 @@ public class SQRServiceTest {
     public void numberOfSquareRootsInvalidMinLimit() {
         SQRService service = new SQRService();
 
-        int expected = 6;
+        int expected = 7;
         int actual = service.calcSqrt(9, 99);
         Assertions.assertEquals(expected, actual);
     }
@@ -32,7 +32,7 @@ public class SQRServiceTest {
     }
 
     @Test
-    public void numberOfSquareRootsInvalidBouthLimits() {
+    public void numberOfSquareRootsInvalidBothLimits() {
         SQRService service = new SQRService();
 
         int expected = 6;
